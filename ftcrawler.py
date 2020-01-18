@@ -15,7 +15,6 @@ headers1={
     'Referer':'https://finance.futunn.com/?code=XLNX&market=us&skin=1&clienttype=10&direction=0',
     'Accept-Encoding':'gzip, deflate, br',
     'Accept-Language':'en-US,en;q=0.9',
-    'Cookie':'uid=156590; web_sig=yQJN2nldUiEMHI9tbrC8b9TGudSjezSUkZ9fcMa6Rt8DZD9TxHq3338c56aNheCoY3nVuE1Jm1NgwTU%2BpEO09t2Wd%2Fvd5kHXHLHJIi82ouw%3D; FUTU_TOOL_STAT_UNIQUE_ID=15782800059176578; cipher_device_id=1578280006825290; tgw_l7_route=8d34ab350eb9a9772a5a0c377f34d47d; PHPSESSID=t3gp4lj276s7538iao1emdblp7'
 }
 response1  = requests.get("https://finance.futunn.com/api/finance-v2/company-info?code=XLNX&label=us&_=1578969470940",headers=headers1)
 # print(type(response))
@@ -39,7 +38,6 @@ headers2={
     'Referer':'https://finance.futunn.com/?code=XLNX&market=us&skin=1&clienttype=10&direction=0',
     'Accept-Encoding':'gzip, deflate, br',
     'Accept-Language':'en-US,en;q=0.9',
-    'Cookie':'uid=156590; web_sig=yQJN2nldUiEMHI9tbrC8b9TGudSjezSUkZ9fcMa6Rt8DZD9TxHq3338c56aNheCoY3nVuE1Jm1NgwTU%2BpEO09t2Wd%2Fvd5kHXHLHJIi82ouw%3D; FUTU_TOOL_STAT_UNIQUE_ID=15782800059176578; cipher_device_id=1578280006825290; tgw_l7_route=8d34ab350eb9a9772a5a0c377f34d47d; PHPSESSID=t3gp4lj276s7538iao1emdblp7'
 }
 
 response2  = requests.get("https://finance.futunn.com/api/finance-v2/income-statement?market=us&code=XLNX&quarter=8&time=&size=4&flag=0&_=1578969473681",headers=headers1)
